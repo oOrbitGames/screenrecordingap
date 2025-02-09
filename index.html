@@ -10,8 +10,10 @@
     <div class="container">
         <h1>Orbit | Screen Recorder</h1>
         <button id="startButton">Start Recording</button>
-        <button id="stopButton" class="hidden">Stop Recording</button>
-        <video id="preview" autoplay muted></video>
+        <div id="previewContainer" class="hidden">
+            <video id="preview" autoplay muted></video>
+            <button id="stopButton">Stop Recording</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
